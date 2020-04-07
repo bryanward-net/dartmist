@@ -5,18 +5,24 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dartmist",
-    version="0.0.1",
+    version="0.0.2",
     author="Bryan Ward",
     author_email="bryan@bryanward.net",
     description="A library for interacting with the Mist Systems API",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/bryanward-net/dartmist",
+    project_urls={
+        'Homepage': 'https://www.bryanward.net',
+        'Source': 'https://github.com/bryanward-net/dartmist'
+    },
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE V3 (GPLV3)",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.4',
+    python_requires='>=3.6',
+    install_requires=['websocket', 'websocket-client'],
+    keywords='mist api wifi wi-fi juniper'
 )
