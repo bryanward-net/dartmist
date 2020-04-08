@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dartmist",
-    version="0.0.7",
+    version="0.1.0",
     author="Bryan Ward",
     author_email="bryan@bryanward.net",
     description="A library for interacting with the Mist Systems API",
