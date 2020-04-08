@@ -5,18 +5,18 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dartmist",
-    version="0.0.2",
+    version="0.0.5",
     author="Bryan Ward",
     author_email="bryan@bryanward.net",
     description="A library for interacting with the Mist Systems API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bryanward-net/dartmist",
+    url="https://www.bryanward.net/dartmist",
     project_urls={
-        'Homepage': 'https://www.bryanward.net',
+        'Homepage': 'https://www.bryanward.net/dartmist',
         'Source': 'https://github.com/bryanward-net/dartmist'
     },
-    packages=setuptools.find_packages(),
+    packages=["dartmist"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
