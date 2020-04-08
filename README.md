@@ -18,7 +18,7 @@ Will install this library and all required libraries
 
 ## Environment
 
-You must specify a Mist Org ID and a Mist API Token.  These can be passed in via the command line (see Usage) 
+You must specify a Mist Org ID and a Mist API Token.  These can be passed in via the command line (see Usage)
 or, preferably, set as envinronment variables:
 
     export MIST_ORGID="00000000-0000-0000-0000-000000000000"
