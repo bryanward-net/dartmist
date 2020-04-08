@@ -3,6 +3,7 @@
 import requests
 import string
 import logging
+from . import Mist
 
 ####################
 ###

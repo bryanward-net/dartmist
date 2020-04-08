@@ -5,6 +5,7 @@ import json
 import websocket
 import threading
 import logging
+from . import Mist
 
 ####################
 ###
